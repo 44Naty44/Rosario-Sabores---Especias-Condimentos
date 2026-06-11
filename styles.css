@@ -39,3 +39,6 @@ header {
 .producto img {
     width: 100%;
 }
+.producto span {
+    color: white;
+}
