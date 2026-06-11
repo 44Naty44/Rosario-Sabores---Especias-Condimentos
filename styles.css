@@ -1,0 +1,41 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    background-color: #C49255;
+    padding: 1rem;
+}
+
+/* titulo y logo */
+header {
+    width: 100%;
+    height: 20rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.holder {
+    width: 100%;
+    height: 10rem;
+    background: #1D1D05;
+}
+
+/* productos */
+.productos {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.producto {
+    background: #1D1D05;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.producto img {
+    width: 100%;
+}
