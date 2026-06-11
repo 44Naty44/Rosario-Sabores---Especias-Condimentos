@@ -28,7 +28,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
 }
 .producto {
-    background: #1D1D05;
+    background: #042C71;;
 
     display: flex;
     flex-direction: column;
