@@ -18,7 +18,7 @@ header {
 .holder {
     width: 100%;
     height: 10rem;
-    background: #1D1D05;
+    background: #2e2e07;
 }
 
 /* productos */
@@ -26,9 +26,10 @@ header {
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
+    margin: 1rem;
 }
 .producto {
-    background: #1D1D05;
+    background: #2e2e07;
 
     display: flex;
     flex-direction: column;
@@ -38,6 +39,7 @@ header {
 }
 .producto img {
     width: 100%;
+    border-radius: 1rem;
 }
 .producto span {
     color: #fff;
