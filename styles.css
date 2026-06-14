@@ -7,7 +7,6 @@ body {
 /* titulo y logo */
 header {
     width: 100%;
-    height: 20rem;
 
     display: flex;
     flex-direction: column;
@@ -16,8 +15,14 @@ header {
 }
 .holder {
     width: 100%;
-    height: 10rem;
-    background: #2e2e07;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.holder img {
+    width: 80%;
+    margin: 1rem;
 }
 
 /* productos */

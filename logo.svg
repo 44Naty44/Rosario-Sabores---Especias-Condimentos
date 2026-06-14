@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 100" width="200" height="100">
+    <title>Rosario Sabores</title>
+    <defs>
+        Copyright 2026 - Rosario Sabores.
+    </defs>
+
+    <polygon fill="#C3B3B3" points="0 0 200 0 200 100 0 100"/>
+    <g>
+        <path
+        stroke="#5A4147"
+        stroke-width="1"
+        fill="#6B4C4A"
+        d="
+        M 95 10 L 105 10 L 106 11
+        L 106 14 L 105 15
+        L 95 15 L 94 14
+        L 94 14 94 11 Z
+        "
+        />
+        <path
+        stroke="#5A4147"
+        stroke-width="1"
+        fill="#B08E82"
+        d="
+        M 105 15
+        C 105 19 108 18 108 20
+        L 108 40
+        C 105 42 95 42 92 40
+        L 92 20
+        C 92 18 95 19 95 15 Z"
+        />
+        <path
+        fill="#844F47"
+        d="M 94 39
+        C 97 40 103 40 106 39
+        L 106 21
+        C 106 19 94 19 94 21"
+        />
+    </g>
+    <g>
+        <path
+        stroke="#8D5E54"
+        fill="#AD7C6B"
+        d="M 116 18 L 115 14 L 125 14 L 124 18"
+        />
+        <path
+        stroke="#654342"
+        fill="#B09687"
+        d="
+        M 115 18 L 125 18
+        C 126 18 126 20 125 20
+        C 122 23 128 21 128 27
+        L 128 38
+        C 128 42 112 42 112 38
+        L 112 27
+        C 112 21 118 23 115 20
+        C 114 20 114 18 115 18"
+        />
+    </g>
+    <text x="100" y="75" font-family="'Caveat Brush', cursive" text-anchor="middle" font-size="30">Tilcara</text>
+
+</svg>
