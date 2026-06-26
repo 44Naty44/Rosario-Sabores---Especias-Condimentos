@@ -30,7 +30,7 @@ header {
 }
 .holder img {
     width: min(420px, 100%);
-    border-radius: 1.5rem;
+    border-radius: .5rem;
     background: rgba(255, 255, 255, 0.4);
 }
 
