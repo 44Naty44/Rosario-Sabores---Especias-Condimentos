@@ -85,7 +85,7 @@ header {
 .productos {
     display: grid;
     gap: 1.6rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
 }
 .producto {
     background: linear-gradient(180deg, #2e2e07 0%, #47470b 100%);
