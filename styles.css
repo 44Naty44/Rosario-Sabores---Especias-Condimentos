@@ -88,7 +88,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
 }
 .producto {
-    background: linear-gradient(180deg, #2e2e07 0%, #47470b 100%);
+    background: linear-gradient(180deg, #45450b 0%, #676711 100%);
     border: 1px solid rgba(87, 120, 59, 0.3);
     border-radius: 1.5rem;
     display: flex;
