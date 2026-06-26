@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" width="100" height="100">
+    <title>Rosario Sabores</title>
+    <defs>
+        Copyright 2026 - Rosario Sabores.
+    </defs>
+    <g transform="translate(50 50) scale(3) translate(-50 -50)">
+        <path
+        stroke="#6C4D55"
+        fill="#9E6F67"
+        d="
+        M 42 43
+        C 50 38 50 38 58 43
+        C 54 48 46 48 42 43
+        Z
+        "
+        />
+        <path
+        stroke="#6C4D55"
+        fill="#B38979"
+        d="
+        M 46 51
+        C 37 52 37 41 42 43
+        C 46 47 54 47 58 43
+        C 63 41 63 52 54 51
+        
+        M 59 50
+        C 63 53 59 61 61 63
+        C 59 65 59 61 53 63
+
+        C 51 64 49 64 47 63
+
+        C 41 61 41 65 39 63
+        C 41 61 37 53 41 50"
+        />
+    </g>
+</svg>

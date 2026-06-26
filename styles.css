@@ -1,54 +1,127 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
+html {
+    scroll-behavior: smooth;
+}
 body {
-    background-color: #C49255;
+    min-height: 100vh;
+    font-family: Inter, "Segoe UI", Calibri, sans-serif;
+    color: #2a1c08;
+    background: linear-gradient(180deg, #c3bcb3 0%, #C49255 28%, #C49255 62%, #3f2a11 100%);
+    /*padding-bottom: 2rem;*/
+}
+img {
+    display: block;
+    max-width: 100%;
 }
 
 /* titulo y logo */
 header {
     width: 100%;
-
+    padding: 1.5rem 1rem 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    justify-content: center;
 }
 .holder {
-    width: 100%;
-    height: auto;
+    width: min(1100px, 100%);
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    padding: 1rem;
 }
 .holder img {
-    width: 100%;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    width: min(420px, 100%);
+    border-radius: 1.5rem;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.site-main {
+    width: min(1120px, 100%);
+    margin: 0 auto;
+    padding: 1.5rem 1rem 0;
+}
+.hero {
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    border-radius: 2rem;
+    padding: 2.2rem 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 24px 50px rgba(0, 0, 0, 0.1);
+}
+.hero-copy {
+    max-width: 720px;
+}
+.eyebrow {
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #8a5a24;
+}
+.hero h1 {
+    margin-bottom: 1rem;
+    font-size: clamp(2.25rem, 3vw, 3.5rem);
+    line-height: 1.05;
+    color: #3f2a11;
+}
+.hero p {
+    max-width: 670px;
+    color: #3e5024;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.productos-seccion {
+    margin-bottom: 1rem;
+}
+.productos-seccion h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #3f2a11;
+    letter-spacing: 0.01em;
 }
 
 /* productos */
 .productos {
     display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 1rem;
+    gap: 1.6rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .producto {
-    background: #2e2e07;
-
+    background: linear-gradient(180deg, #2e2e07 0%, #47470b 100%);
+    border: 1px solid rgba(87, 120, 59, 0.3);
+    border-radius: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    border-radius: 1rem;
+    box-shadow: 0 16px 35px rgba(39, 62, 31, 0.14);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.producto:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 28px 50px rgba(39, 62, 31, 0.22);
+}
+.producto figure {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .producto img {
     width: 100%;
-    border-radius: 1rem;
+    object-fit: cover;
+    border-radius: 1.25rem;
+    margin-bottom: 1rem;
 }
-.producto span {
-    color: #fff;
+.producto figcaption {
+    margin-top: 0.5rem;
+    color: #c7d7b8;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1rem;
 }
-
 
 .site-footer {
     background: linear-gradient(180deg, #1f2112 0%, #121203 100%);
@@ -120,7 +193,7 @@ header {
 
 @media (max-width: 720px) {
     .productos {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .producto {
         width: 100%;
