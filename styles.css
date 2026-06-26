@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     font-family: Inter, "Segoe UI", Calibri, sans-serif;
     color: #2a1c08;
-    background: linear-gradient(180deg, #c3bcb3 0%, #C49255 28%, #C49255 62%, #3f2a11 100%);
+    background: linear-gradient(180deg, #C49255 0%, #C49255 62%, #3f2a11 100%);
     /*padding-bottom: 2rem;*/
 }
 img {
